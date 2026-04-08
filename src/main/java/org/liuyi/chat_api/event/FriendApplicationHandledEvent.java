@@ -8,10 +8,6 @@ import org.liuyi.common.domain.event.Event;
 
 import java.time.Instant;
 
-enum HandleFriendApplicationResultType {
-    ACCEPTED, REJECTED
-}
-
 @Data
 @SuperBuilder
 @AllArgsConstructor
