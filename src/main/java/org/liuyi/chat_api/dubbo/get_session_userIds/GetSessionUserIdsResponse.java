@@ -13,5 +13,5 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 public class GetSessionUserIdsResponse extends BaseResponse {
-    Set<String> userId;
+    Set<String> userIds;
 }
