@@ -5,5 +5,5 @@ import org.liuyi.chat_api.dubbo.get_session_userIds.GetSessionUserIdsRequest;
 import org.liuyi.chat_api.dubbo.get_session_userIds.GetSessionUserIdsResponse;
 
 public interface ChatService {
-    GetSessionUserIdsResponse getUser(GetSessionUserIdsRequest request);
+    GetSessionUserIdsResponse getSessionUserIds(GetSessionUserIdsRequest request);
 }
