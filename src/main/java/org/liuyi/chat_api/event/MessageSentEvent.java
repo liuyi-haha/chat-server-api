@@ -17,7 +17,7 @@ public class MessageSentEvent extends Event {
     Instant sendTime;
     String sessionId;
     String messageId;
-    String seqInSession;
+    Integer seqInSession;
     String textContent; // 文本消息内容，后续再扩展其它消息
     String senderUserId;
 
