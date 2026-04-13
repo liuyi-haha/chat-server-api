@@ -12,7 +12,7 @@ import java.time.Instant;
 @SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor
-public class PrivateSessionCreated extends Event {
+public class PrivateSessionCreatedEvent extends Event {
     public static String TOPIC = "private-session-created";
     Instant createTime;
     String sessionId;
