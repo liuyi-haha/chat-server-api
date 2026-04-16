@@ -18,8 +18,14 @@ public class MessageSentEvent extends Event {
     String sessionId;
     String messageId;
     Integer seqInSession;
-    String textContent; // 文本消息内容，后续再扩展其它消息
     String senderUserId;
+    String textContent;
+    // 文件类消息的文件id
+    String fileId;
+    // 图片消息的字段
+    Integer imageWidth;
+    Integer imageHeight;
+
 
     @Override
     public String getTopic() {
