@@ -25,6 +25,13 @@ public class MessageSentEvent extends Event {
     // 图片消息的字段
     Integer imageWidth;
     Integer imageHeight;
+    // 语音消息字段
+    Integer speechDurationSeconds;
+    // 文档消息字段
+    String documentName;
+    Long documentBytes;
+    DocumentType documentType;
+
 
 
     @Override
